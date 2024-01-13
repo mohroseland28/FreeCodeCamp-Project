@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #022b3a;
+    color: #fff;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px auto;
+    width: 80%;
+    background-color: #1f7a8c;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+    font-size: 13px;
+}
+
+hr{
+    height: 5px;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 5px;
+}
+
+fieldset {
+    margin-top: 15px;
+    border: none;
+    font-size: 14px;
+    display: block;
+}
+
+
+input {
+    width: 100%;
+    height: 32px;
+    background-color: #022b3a;
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 7px;
+}
+
+select {
+    width: 101%;
+    height: 28px;
+    background-color: #022b3a;
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 7px;
+}
+
+
+input[type="radio"], input[type="checkbox"]{
+    height: 12px;
+    width: unset;
+    vertical-align: bottom;
+
+}
+
+.label {
+    
+    display: block;
+    margin-top: 2px;
+}
+
+textarea {
+    margin-top: 5px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    border: 1px solid #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
